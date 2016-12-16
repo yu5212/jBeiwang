@@ -48,11 +48,11 @@
         </h2>
     </div>
 <ul class="record">
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span></li>
+    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
+    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
+    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
+    <li><span class="content">在视图页中显示字符串变量</span><span class="date">2016年12月16日</span><span class="by"><i>by</i> admin</span></li>
+    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
 </ul>
 </div>
 </body>

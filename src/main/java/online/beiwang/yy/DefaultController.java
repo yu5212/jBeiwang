@@ -27,8 +27,15 @@ public class DefaultController {
     }
 
     @RequestMapping("/")
-    public String Default(ModelMap model){
-model.addAttribute("welcome","记录生活的点点滴滴");
+    public String Default(ModelMap model) {
+        String[] strs = {
+                "纸上得来终觉浅，绝知此事要躬行",
+                "记录生活的点点滴滴",
+                "黑发不知勤学早，白首方悔读书迟"
+        };
+
+        String welcome = strs[(int)(Math.random()*strs.length)];
+        model.addAttribute("welcome", welcome);
         return "login";
     }
 
