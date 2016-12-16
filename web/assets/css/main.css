@@ -1,0 +1,25 @@
+ul.record{
+    background-image: url(/assets/images/quote.png);
+    background-repeat: no-repeat;
+    min-height:90px;
+    border-bottom:1px dotted #666;
+}
+
+ul.record li{
+    list-style-type: none;
+    list-style-image: none;
+    margin-left:60px;
+    font-size:14px;
+}
+
+ul.record li .content{
+    font-size:16px;
+    line-height:30px;
+    display:block;
+}
+
+ul.record li .date{
+    display:block;
+    color:#999;
+    font-family: Constantia;
+}
