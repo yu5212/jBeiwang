@@ -26,7 +26,7 @@
     </div>
     <div class="jumbotron" style="padding:20px;">
         <h1>莫失莫忘</h1>
-        <p>记录生活的点点滴滴</p>
+        <p>${welcome}</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
     </div>
     <form class="navbar-form navbar-left" role="search">
