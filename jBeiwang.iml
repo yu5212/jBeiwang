@@ -25,76 +25,6 @@
         </fileset>
       </configuration>
     </facet>
-    <facet type="web" name="Web2">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf" relative="/WEB-INF" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-    <facet type="web" name="Web3">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/V1.0.0/WebContent/WEB-INF/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/V1.0.0/WebContent" relative="/" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-    <facet type="web" name="Web4">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT/WEB-INF/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" relative="/" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-    <facet type="web" name="Web5">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/Servers/Tomcat v8.5 Server at localhost-config/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/Servers/Tomcat v8.5 Server at localhost-config" relative="/WEB-INF" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
-    <facet type="web" name="Web6">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/V1.0.0/WEB-INF/web.xml" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/V1.0.0" relative="/" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -118,5 +48,14 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.12" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.12" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:6.0.5" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
   </component>
 </module>

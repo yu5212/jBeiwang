@@ -1,4 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib prefix="st" uri="http://www.springframework.org/tags" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="sf" %>
 <html>
 <head>
     <title>用户注册</title>
@@ -9,6 +14,7 @@
     <link href="/assets/css/main.css" rel="stylesheet" />
     <script src="/assets/bootstrap/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.js"></script>
+    <script src="/assets/js/beiwang/main.js"></script>
 </head>
 <body>
 <div style="width:1200px; margin:0px auto;">
@@ -31,28 +37,24 @@
     </div>
     <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-            <input type="text" name="txt_email" class="form-control" placeholder="电子信箱">
+            <input type="text" id="txt_email" name="txt_email" class="form-control" placeholder="电子信箱">
         </div>
         <div class="form-group">
-            <input type="text" name="txt_password" class="form-control" placeholder="密码">
+            <input type="text" id="txt_password" name="txt_password" class="form-control" placeholder="密码">
         </div>
-        <button type="button" name="btn_login" class="btn btn-default">登录</button>
+        <button type="button" name="btn_login" class="btn btn-default" onclick="fnLogin();">登录</button>
         <button type="button" name="btn_reg" class="btn btn-default">注册</button>
     </form>
 </div>
 <div style="clear:both;"></div>
 <div style="width:1200px; margin:0px auto;">
     <div style="text-align:left; font-weight: bold;">
-        <h2>
-            更新内容
-        </h2>
+        <h3>一步一个脚印</h3>
     </div>
 <ul class="record">
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
-    <li><span class="content">在视图页中显示字符串变量</span><span class="date">2016年12月16日</span><span class="by"><i>by</i> admin</span></li>
-    <li><span class="content">springmvc搭建成功</span><span class="date">2016年12月15日</span><span class="by"><i>by</i> admin</span></li>
+    <c:forEach items="${headline}" var="hl">
+        <li><span class="content">${hl.title}</span><span class="date"><fmt:formatDate value="${hl.date}" pattern="yyyy-MM-dd"/></span><span class="by">@<i>${hl.author}</i></span></li>
+    </c:forEach>
 </ul>
 </div>
 </body>

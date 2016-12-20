@@ -17,7 +17,14 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.1.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
+        <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.12" />
       </element>
     </root>
   </artifact>
